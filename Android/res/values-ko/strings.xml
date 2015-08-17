@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="animation_speed_title">애니메이션 속도</string>
+
+<!--Settings -->
+	<string name="pen_settings">펜 설정</string>
+	<string name="pen_settings_preset_empty">기본 설정 없음</string>
+	<string name="pen_settings_preset_delete_title">삭제</string>
+	<string name="pen_settings_preset_delete_msg">선택된 펜 기본 설정이 영구적으로 삭제됩니다.</string>
+	<string name="pen_settings_preset_exist">이미 저장되어 있습니다</string>
+	<string name="pen_settings_preset_maximum_msg">프리셋 최대 등록 갯수(12개)에 도달했습니다.</string>
+	<string name="eraser_settings">지우개 설정</string>
+	<string name="clear_all">모두 삭제</string>
+	<string name="text_settings">텍스트 설정</string>
+	<string name="text_settings_tab_font">서체</string>
+	<string name="text_settings_tab_paragraph">단락</string>
+	<string name="text_settings_tab_paragraph_align">정렬</string>	
+	<string name="text_settings_tab_list">리스트</string>
+	<string name="textbox_hint">텍스트 입력</string>
+	<string name="filling_settings">채우기 설정</string>
+	<string name="settingview_close_btn_desc">종료</string>
+	<string name="settingview_preset_add_btn_desc">추가</string>
+	<string name="settingview_preset_delete_btn_desc">삭제</string>
+	<string name="load_title">로딩 중</string>
+	<string name="load_msg">로드할 동안 기다려주십시오...</string>
+	
+<!-- Signature -->
+	<string name="signature_start_check_title">[등록된 서명 확인]</string>
+	<string name="signature_start_check_sub_title">등록된 서명이 존재 하는지 확인합니다</string>
+	<string name="signature_start_check_success">등록된 서명이 존재 합니다</string>
+	<string name="signature_start_check_failure">등록된 서명이 없습니다</string>
+	<string name="signature_start_registration_title">[서명 등록]</string>
+	<string name="signature_start_registration_sub_title">서명 등록을 시작 합니다</string>
+	<string name="signature_start_verification_title">[서명 인증]</string>
+	<string name="signature_start_verification_sub_title">서명 인증을 시작 합니다 등록된 서명이 존재 해야 합니다</string>
+	<string name="signature_start_verification_failure">등록된 서명이 없습니다</string>
+	<string name="signature_start_delete_title">[서명 삭제]</string>
+	<string name="signature_start_delete_sub_title">등록된 서명을 삭제 합니다</string>
+	<string name="signature_start_delete_failure">등록된 서명이 삭제 되었습니다</string>
+	<string name="signature_start_delete_success">등록된 서명이 없습니다</string>
+	<string name="signature_registration_registration_title">[서명 저장]</string>
+	<string name="signature_registration_registration_sub_title">서명 등록을 위해 작성한 서명을 저장합니다</string>
+	<string name="signature_registration_registration_success_1">첫번째 서명이 저장되었습니다</string>
+	<string name="signature_registration_registration_success_2">두번째 서명이 저장되었습니다</string>
+	<string name="signature_registration_registration_success_3">서명 등록이 완료 되었습니다</string>
+	<string name="signature_registration_registration_failure">등록할 서명이 적합하지 않습니다\n다시 입력해 주세요!</string>	
+	<string name="signature_registration_draw">등록을 위해 서명 입력을 해주세요</string>
+	<string name="signature_verification_verification_title">[서명인증]</string>
+	<string name="signature_verification_verification_sub_title">서명을 인증 합니다</string>
+	<string name="signature_verification_verification_success">인증 성공!</string>
+	<string name="signature_verification_verification_failure">인증 실패!</string>
+	<string name="signature_verification_level_title">[서명인증 레벨]</string>
+	<string name="signature_verification_level_sub_title">인증 레벨을 선택하세요</string>
+	<string name="signature_verification_level_low">낮음</string>
+	<string name="signature_verification_level_medium">중간</string>
+	<string name="signature_verification_level_high">높음</string>
+	<string name="signature_verification_level_confirm">확인</string>
+	<string name="signature_verification_level_cancel">취소</string>
+	<string name="signature_verification_draw">인증을 위해 서명 입력을 해주세요</string>
+	<string name="signature_retry_title">[재 입력]</string>
+	<string name="signature_retry_sub_title">재 입력을 위하여 화면을 지웁니다</string>		
+<!-- User font -->
+	<string name="user_font_name1">초코쿠키</string>
+	<string name="user_font_name2">로즈마리</string>  
+	
+<!-- SAMM Option -->	
+	<string name="save_image_horizontal_crop_off">OFF - 저장할 이미지의 왼쪽, 오른쪽 빈 공간을 자르지 않는다</string>
+	<string name="save_image_horizontal_crop_on">ON - 저장할 이미지의 왼쪽, 오른쪽 빈 공간을 자른다</string>
+	<string name="save_image_vertical_crop_off">OFF - 저장할 이미지의 위, 아래 빈 공간을 자르지 않는다</string>
+	<string name="save_image_vertical_crop_on">ON - 저장할 이미지의 위, 아래 빈 공간을 자른다</string>
+	<string name="adjust_saving_contents_by_cropping_off">OFF - 잘라진 이미지에 맞게 데이터 내용(좌표 등)을 조정하지 않는다</string>
+	<string name="adjust_saving_contents_by_cropping_on">ON - 잘라진 이미지에 맞게 데이터 내용(좌표 등)을 조정한다</string>	
+	<string name="save_only_foreground_image_off">OFF - 전경과 배경을 함께 이미지로 저장한다</string>
+	<string name="save_only_foreground_image_on">ON - 전경만 이미지로 저장한다(투명 배경)</string>
+	<string name="create_new_image_off">OFF - 존재하는 파일에 SAMM 데이터를 저장한다</string>
+	<string name="create_new_image_on">ON - 새로운 이미지 파일을 만들어서 SAMM 데이터를 저장한다</string>
+	<string name="encode_foreground_image_off">OFF - 전경 이미지를 인코딩하지 않는다</string>
+	<string name="encode_foreground_image_on">ON - 전경 이미지를 인코딩한다</string>
+	<string name="encode_thumbnail_image_off">OFF - 썸네일 이미지를 인코딩하지 않는다</string>
+	<string name="encode_thumbnail_image_on">ON - 썸네일 이미지를 인코딩한다</string>
+	<string name="encode_object_data_off">OFF - 객체 데이터를 인코딩하지 않는다</string>
+	<string name="encode_object_data_on">ON - 객체 데이터를 인코딩한다</string>
+	<string name="encode_video_file_data_off">OFF - 비디오 파일 데이터를 인코딩하지 않는다</string>
+	<string name="encode_video_file_data_on">ON - 비디오 파일 데이터를 인코딩한다</string>
+	
+<!-- Animation Option -->
+	<string name="play_animation_using_trasparent_background_off">OFF - 배경과 함께 애니메이션 재생</string>	
+	<string name="play_animation_using_trasparent_background_on">ON - 배경 없이 애니메이션을 재생(투명)</string>
+	<string name="background_audio_play_off">OFF - 배경 오디오를 끔</string>
+	<string name="background_audio_play_on">ON - 배경 오디오를 켬</string>
+	<string name="background_audio_auto_replay_off">OFF - 배경 오디오를 한번만 재생</string>
+	<string name="background_audio_auto_replay_on">ON - 배경 오디오 반복 재생</string>
+	<string name="background_audio_stop_off">OFF - 애니메이션에 관계없이 배경 오디오를 재생</string>
+	<string name="background_audio_stop_on">ON - 애니메이션이 멈추면 배경오디오도 멈춤</string>
+	<string name="play_animation_using_sound_effect_off">OFF - 오디오 없이 애니메이션을 재생한다</string>
+	<string name="play_animation_using_sound_effect_on">ON - 오디오와 함께 애니메이션을 재생한다</string>
+	
+<!-- Other Option -->
+	<string name="predictive_text_disable">Disable - 텍스트 예측 모드를 끈다</string>
+	<string name="predictive_text_enable">Enable - 텍스트 예측 모트를 동작시킨다</string>
+   	<string name="settingview_pinup_disable">Disable - 세팅뷰 핀업상태를 해제한다</string>
+	<string name="settingview_pinup_enable">Enable - 세팅뷰 핀업상태로 설정한다</string>
+	<string name="pen_only_mode_disable">Disable - 펜 전용 모드를 해제한다</string>
+	<string name="pen_only_mode_enable">Enable - 펜 전용 모드를 설정한다</string>
+	<string name="stroke_longclick_disable">Disable - 펜 모드에서 획 롱클릭시 선택 안됨</string>
+	<string name="stroke_longclick_enable">Enable - 펜 모드에서 획 롱클릭시 선택 가능</string>	
+	<string name="text_longclick_disable">Disable - 펜 모드에서 텍스트 롱클릭시 선택 안됨</string>
+	<string name="text_longclick_enable">Enable - 펜 모드에서 텍스트 롱클릭시 선택 가능</string>	
+	<string name="hover_scroll_disable">Disable - 호버 스크롤 지원안함</string>
+	<string name="hover_scroll_enable">Enable - 호버 스크롤을 지원함</string>	
+	<string name="maintain_scale_on_resize_disable">Disable - 단말 회전시 비율 유지안함</string>
+	<string name="maintain_scale_on_resize_enable">Enable - 단말 회전시 비율 유지</string>
+	<string name="maintain_pen_color_disable">Disable - 펜 변경시 색상 유지안함</string>
+	<string name="maintain_pen_color_enable">Enable - 펜 변경시에 색상 유지</string>
+	<string name="support_beautify_stroke_disable">Disable - 미려화 붓 지원안함</string>
+	<string name="support_beautify_stroke_enable">Enable - 미려화 붓 지원</string>
+	<string name="boundary_touch_scroll_disable">Disable - 가장자리 터치에 의한 스크롤을 지원안함</string>
+	<string name="boundary_touch_scroll_enable">Enable - 가장자리 터치에 의한 스크롤을 지원</string>
+
+<!-- Gesture -->
+	<string name="gesture_edit_recognize">인식</string>
+	<string name="gesture_edit_clear">화면지우기</string>
+	<string name="gesture_edit_save">저장</string>
+	<string name="gesture_edit_load">불러오기</string>
+	<string name="gesture_edit_register">등록</string>
+	<string name="gesture_edit_delete">삭제</string>
+	<string name="gesture_edit_delete_all">전체삭제</string>
+	<string name="gesture_edit_default">등록초기화</string>   
+	<string name="gesture_edit_filepath">/sdcard/TCCTestData_1.dat</string>
+	<string name="gesture_edit_test">테스트 화면</string>
+		
+<!-- Talkback & Description-->
+	<string name="defined_color_desc">색상을 선택하세요</string>
+	<string name="custom_color_desc">색상을 선택하세요</string>
+	<string name="pen_preview_desc">펜 프리뷰</string>
+	<string name="pentype_desc_solid">펜</string>
+	<string name="pentype_desc_brush">붓</string>
+	<string name="pentype_desc_chinese_brush">서예붓</string>
+	<string name="pentype_desc_crayon">연필</string>
+	<string name="pentype_desc_marker">형광펜</string>
+	<string name="preset_preview_desc">프리셋 프리뷰</string>
+	<string name="text_preview_desc">글자체 %1$s, 크기 %2$d, %3$s, %4$s, %5$s</string>	
+	<string name="text_font_desc">텍스트 폰트</string>	
+	<string name="text_size_desc">텍스트 크기</string>
+	<string name="settingview_expand_desc">고급 설정</string>
+	<string name="settingview_contract_desc">고급 설정</string>	
+	<string name="settingview_scrollbar_desc">세팅뷰 스크롤바</string>
+	<string name="dropperview_color_desc">칼라피커 색상</string>
+	<string name="seekbar_opacity_desc">투명도 %d 퍼센트</string>
+	<string name="seekbar_size_desc">두께 %d 퍼센트</string>
+	<string name="textbox_delete_desc">텍스트 박스 삭제</string>
+	<string name="object_delete_desc">객체 삭제</string>
+	<string name="object_rotate_left_desc">좌측 회전</string>
+	<string name="object_rotate_right_desc">우측 회전</string>
+	<string name="seekbar_cursive_desc">cursive %d 퍼센트</string>
+	<string name="seekbar_sustenance_desc">sustenance %d 퍼센트</string>
+	<string name="seekbar_dummy_desc">dummy %d 퍼센트</string>
+	<string name="seekbar_modulation_desc">modulation %d 퍼센트</string>
+	<string name="beautify_style_desc">미려화 스타일</string>
+	<string name="list_type_desc">리스트 타입</string>
+	<string name="type_bold_on_desc">볼드 적용</string>	
+	<string name="type_bold_off_desc">볼드 적용안함</string>		
+	<string name="type_italic_on_desc">이탤릭 적용</string>	
+	<string name="type_italic_off_desc">이탤릭 적용안함</string>		
+	<string name="type_underline_on_desc">밑줄 적용</string>	
+	<string name="type_underline_off_desc">밑줄 적용안함</string>	
+
+<!-- Beautify -->
+	<string name="pen_settings_chinese_brush_tab">서예 붓</string>
+	<string name="pen_settings_beautify_brush_tab">미려화 붓</string>
+	<string name="pen_settings_beautify_brush_reset">리셋</string>
+	<string name="pen_settings_beautify_cursive">cursive</string>
+	<string name="pen_settings_beautify_sustenance">sustenance</string>
+	<string name="pen_settings_beautify_dummy">dummy</string>	
+	<string name="pen_settings_beautify_modulation">modulation</string>
+	
+<!--  Locale -->
+	<string name="align_left_desc">좌측 정렬</string>	
+	<string name="align_center_desc">중앙 정렬</string>	
+	<string name="align_right_desc">우측 정렬</string>
+	
+	<string name="hover_popup_window">The minimal organic design of the Samsung GALAXY S III is reflected in its smooth curves</string>
+</resources>

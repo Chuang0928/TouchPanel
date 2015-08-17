@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/bg_edit">
+
+    <FrameLayout 
+		android:id="@+id/layout_container"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_gravity="center"
+		> 
+		<LinearLayout 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center">
+			<RelativeLayout 
+				android:id="@+id/canvas_container"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+			</RelativeLayout>	
+		</LinearLayout>
+			
+	</FrameLayout>
+	
+    <RelativeLayout
+	    android:id="@+id/top_menu"
+		android:orientation="horizontal"
+		android:layout_gravity="top|right"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+			
+		<LinearLayout
+		    android:id="@+id/tool_menu"
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">	
+			<LinearLayout
+			    android:id="@+id/tool_control"
+				android:orientation="horizontal"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<ImageView
+					android:id="@+id/expandBtn"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:src="@drawable/selector_contract"  
+					android:layout_weight="1"
+					android:layout_margin="1dip"
+					/>
+			</LinearLayout>
+			<LinearLayout
+			    android:id="@+id/tool_buttons"
+				android:orientation="horizontal" 
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				>
+				<ImageView
+					android:id="@+id/penBtn"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:background="@drawable/selector_tool_bg"
+					android:src="@drawable/selector_pen"  
+					android:layout_weight="1"
+					android:layout_margin="1dip"
+					/>
+				<ImageView
+					android:id="@+id/eraseBtn"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:background="@drawable/selector_tool_bg"
+					android:src="@drawable/selector_eraser"
+					android:layout_weight="1"
+					android:layout_margin="1dip"
+					/>
+				<ImageView
+		            android:id="@+id/stampBtn"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_margin="1dip"
+		            android:layout_weight="1"
+		            android:background="@drawable/selector_tool_bg"
+		            android:src="@drawable/selector_image" />
+				
+				<ImageView
+					android:id="@+id/undoBtn"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:background="@drawable/selector_tool_bg"
+					android:src="@drawable/selector_undo"
+					android:layout_weight="1"
+					android:layout_margin="1dip"
+					/>
+				<ImageView
+					android:id="@+id/redoBtn"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:background="@drawable/selector_tool_bg"
+					android:src="@drawable/selector_redo"
+					android:layout_weight="1"
+					android:layout_margin="1dip"
+					/>
+				<ImageView
+					android:id="@+id/saveBtn"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:background="@drawable/selector_tool_bg"
+					android:src="@drawable/selector_save"
+					android:layout_weight="1"
+					android:layout_margin="1dip"
+					/>
+			</LinearLayout>
+		</LinearLayout>	
+	</RelativeLayout>
+
+	
+	
+	
+		    
+</RelativeLayout>

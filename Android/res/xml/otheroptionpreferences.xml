@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2008 The Android Open Source Project
+
+	 Licensed under the Apache License, Version 2.0 (the "License");
+	 you may not use this file except in compliance with the License.
+	 You may obtain a copy of the License at
+
+		  http://www.apache.org/licenses/LICENSE-2.0
+
+	 Unless required by applicable law or agreed to in writing, software
+	 distributed under the License is distributed on an "AS IS" BASIS,
+	 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	 See the License for the specific language governing permissions and
+	 limitations under the License.
+-->
+
+<!-- This is a primitive example showing the different types of preferences available. -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="SPen" >
+        <ListPreference
+            android:defaultValue="3"
+            android:dialogTitle="Select hover pointer style"
+            android:entries="@array/hover_pointer_style"
+            android:entryValues="@array/hover_pointer_style_value"
+            android:key="hover_pointer_style"
+            android:summary="Select hover pointer style"
+            android:title="Hover Pointer Style" />
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="Select hover pointer show option"
+            android:entries="@array/hover_pointer_show_option"
+            android:entryValues="@array/hover_pointer_show_option_value"
+            android:key="hover_pointer_show_option"
+            android:summary="Select hover pointer show option"
+            android:title="Hover Pointer Show Option" />
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="Select pen side button style"
+            android:entries="@array/side_button_style"
+            android:entryValues="@array/side_button_style_value"
+            android:key="pen_side_button_style"
+            android:summary="Select pen side button style"
+            android:title="Pen Side Button Style" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="Mode" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="predictive_text_mode"
+            android:summary="Disable - Disable the predictive text mode"
+            android:title="Predictive text mode" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="settingview_pinup_mode"
+            android:summary="Enable - Enable the settingview pinup mode"
+            android:title="Settingview pinup mode" />
+        
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pen_only_mode"
+            android:summary="Enable - Enable the pen only mode"
+            android:title="Pen only mode" />
+    </PreferenceCategory>
+               
+    <PreferenceCategory android:title="Canvas Mode" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pen_only_mode_stroke_longclick"
+            android:summary="Enable - Enable the stroke longclick in pen only mode"
+            android:title="Stroke longclick in pen only mode" />
+                        
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pen_only_mode_text_longclick"
+            android:summary="Enable - Enable the text longclick in pen only mode"
+            android:title="Text longclick in pen only mode" />
+        
+         <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="hover_scroll"
+            android:summary="Enable - Enable the hover scroll"
+            android:title="Hover scroll" />             
+   
+         <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="maintain_scale_on_resize"
+            android:summary="Disable - Disable the maintain scale on resize"
+            android:title="Maintain scale on resize" /> 
+            
+         <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="maintain_pen_color"
+            android:summary="Disable - Disable the maintain pen color"
+            android:title="Maintain pen color" /> 
+            
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="support_beautify_stroke_setting"
+            android:summary="Enable - Enable the beautify stroke"
+            android:title="Support beautify stroke" /> 
+            
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="boundary_touch_scroll"
+            android:summary="Enable - Enable the boundary touch scroll"
+            android:title="Boundary touch scroll" /> 
+    </PreferenceCategory>
+
+</PreferenceScreen>

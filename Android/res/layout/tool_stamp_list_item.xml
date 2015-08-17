@@ -1,0 +1,14 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" 
+	android:layout_width="fill_parent"
+	android:gravity="center"
+	android:paddingTop="6dp"
+	android:paddingBottom="6dp">
+
+	<ImageView 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_height="46dip" 
+		android:layout_width="46dip"
+		android:id="@+id/stamp"/>
+</LinearLayout>
